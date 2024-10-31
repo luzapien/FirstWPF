@@ -29,3 +29,4 @@ C:\Users\pc-desarrollo\Documents\curso\FirstWPFSn\PhoneBook\obj\Debug\net8.0-win
 C:\Users\pc-desarrollo\Documents\curso\FirstWPFSn\PhoneBook\obj\Debug\net8.0-windows\Image.baml
 C:\Users\pc-desarrollo\Documents\curso\FirstWPFSn\PhoneBook\bin\Debug\net8.0-windows\Data\Pics\paisaje.jpeg
 C:\Users\pc-desarrollo\Documents\curso\FirstWPFSn\PhoneBook\obj\Debug\net8.0-windows\PhoneBook_Content.g.cs
+C:\Users\pc-desarrollo\Documents\curso\FirstWPFSn\PhoneBook\obj\Debug\net8.0-windows\PhoneBook.sourcelink.json

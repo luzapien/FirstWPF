@@ -8,8 +8,8 @@
         Title="Image" Height="427" Width="852">
     <Grid>
         <Rectangle Height="60" Stroke="Black" VerticalAlignment="Top" Fill="#FFCED2ED" Margin="2,0,0,0"/>
-        <Button x:Name="load_butt" Content="Load" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="86" Height="27" Click="load_butt_Click"/>
-        <Image x:Name="my_image" Margin="1,60,0,10" RenderTransformOrigin="0.5,0.5" Source="/paisaje.jpeg" Stretch="Fill">
+        <Button x:Name="load_butt" Content="Load" HorizontalAlignment="Left" Margin="111,16,0,0" VerticalAlignment="Top" Width="51" Height="28" Click="load_butt_Click" Background="#FFBEC9E4"/>
+        <Image x:Name="my_image" Margin="1,60,0,10" RenderTransformOrigin="0.5,0.5" Source="/pumpkin.jpeg" Stretch="Fill">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -19,7 +19,9 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Button x:Name="fill_butt" Content="Fill" HorizontalAlignment="Left" Margin="116,22,0,0" VerticalAlignment="Top" Width="37" Height="20" RenderTransformOrigin="0.324,1.902"/>
-        <Button x:Name="zoom_butt" Content="Zoom" HorizontalAlignment="Left" Margin="158,22,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="fill_butt" Content="Fill" HorizontalAlignment="Left" Margin="707,20,0,0" VerticalAlignment="Top" Width="37" Height="20" RenderTransformOrigin="0.324,1.902" Background="#FFC3CEE8" Click="fill_butt_Click"/>
+        <Button x:Name="zoom_butt" Content="Zoom" HorizontalAlignment="Left" Margin="749,20,0,0" VerticalAlignment="Top" Width="39" Background="#FFCBCAE6" Click="zoom_butt_Click"/>
+        <Button x:Name="browser_button" Content="Browser" HorizontalAlignment="Left" Margin="20,16,0,0" VerticalAlignment="Top" Width="86" Height="28" Background="#FFC1C8EC" Click="browser_button_Click"/>
+        <TextBox x:Name="text_box" HorizontalAlignment="Left" Margin="195,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478" Height="24"/>
     </Grid>
 </Window>
